@@ -1,0 +1,22 @@
+ 
+LUX RUSSIA
+Last processed auto and entity: 0 0
+Last processed skin and entity: 228 228
+ID: 4073
+Last rendered object: 0
+SIGSEGV | Fault address: 0xF8A
+libGTASA base address: 0xBB488000
+libsamp base address: 0x0
+libc base address: 0xECC48000
+register states:
+r0: 0xB65C2000, r1: 0xEA, r2: 0xB6369017, r3: 0xF8A
+r4: 0xe1d83d80, r5: 0xb65c3506, r6: 0x1a3b, r7: 0xbab18050
+r8: 0xbc03ac11, r9: 0x0, sl: 0x18b, fp: 0xe1da3e00
+ip: 0xb65c2000, sp: 0xbab18050, lr: 0x1, pc: 0xbb64701a
+backtrace:
+1: libGTASA.so + 0x1BF01A
+2: libGTASA.so + 0x44B78001
+1: libsamp.so + 0xBB64701A
+2: libsamp.so + 0x1
+1: libc.so + 0xCE9FF01A
+2: libc.so + 0x133B8001
